@@ -5,8 +5,9 @@ function makeid(l) {
 	for(let i = 0 ; i<l;i++){
 		res += 
 			char_list.charAt(
+				
 			Math.floor(
-					Math.random() * char_list.length;))
+					Math.random() * char_list.length))
 	}return res;
 	
 }
